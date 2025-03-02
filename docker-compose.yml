@@ -1,0 +1,17 @@
+version: '3'
+services:
+  phi4-server:
+    image: phi4-server
+    container_name: phi4-server
+    volumes:
+      - hf_cache:/app/hf_cache
+    ports:
+    - "8000:8000"
+    ipc: host
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+volumes:
+  hf_cache:
