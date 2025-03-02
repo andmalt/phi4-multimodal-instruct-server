@@ -113,7 +113,7 @@ print(response.choices[0].message.content)
 
 - **Text**: Add text entries with `"type": "text"` in the `"content"` list.
 - **Image**: Include base64-encoded images or URLs with `"type": "image_url"`.
-- **Audio**: Use `"type": "input_audio"` or `"type": "audio_url"` for audio inputs (if supported by `server.py`).
+- **Audio**: Use `"type": "input_audio"` or `"type": "audio_url"` for audio inputs.
 
 ## Under the Hood
 
