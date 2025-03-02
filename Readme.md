@@ -1,4 +1,6 @@
-# Self-Hosted OpenAI-Compatible Chat Completion Endpoint
+# Phi-4 Multimodal Instruct Server
+
+## Self-Hosted OpenAI-Compatible Chat Completion Endpoint
 
 This project enables you to self-host an OpenAI-compatible chat completion API endpoint powered by the [microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) model. Deployed via a FastAPI server within a Docker container, this solution supports multimodal inputs—text, images, and audio—and leverages NVIDIA GPU acceleration for efficient inference.
 
